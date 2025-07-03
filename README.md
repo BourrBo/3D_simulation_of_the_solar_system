@@ -19,14 +19,14 @@ You can rotate, zoom, pause, reset, and adjust the speed of each planet. Hover o
 
 ## Demo
 
-> _No live demo hosted. Download and run locally as described below._
+https://planetsproject.netlify.app/
 
 ---
 
 ## How to Run
 
 1. **Download or Clone the Repository**
-   git clone <https://github.com/BourrBo/3D_simulation_of_the_solar_system.git>
+   git clone <https://github.com/BourrBo/3D_simulation_of_the_solar_system.git>/
 
 **Or simply download the files to a folder.**
   Open the Project Folder
