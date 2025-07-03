@@ -26,7 +26,7 @@ You can rotate, zoom, pause, reset, and adjust the speed of each planet. Hover o
 ## How to Run
 
 1. **Download or Clone the Repository**
-   git clone <>
+   git clone <https://github.com/BourrBo/3D_simulation_of_the_solar_system.git>
 
 **Or simply download the files to a folder.**
   Open the Project Folder
