@@ -19,7 +19,7 @@ You can rotate, zoom, pause, reset, and adjust the speed of each planet. Hover o
 
 ## Demo
 
-> _No live demo hosted. Download and run locally as described below._
+https://planetsproject.netlify.app/
 
 ---
 
