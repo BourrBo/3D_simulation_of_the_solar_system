@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Solar System Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="canvas-container">
+            <div class="loading">🌟 Loading Solar System...</div>
+        </div>
+        
+        <div id="controls">
+            <div class="title">Solar System Control</div>
+            
+            <div class="main-controls">
+                <button id="pauseBtn" class="control-button">⏸ Pause</button>
+                <button id="themeBtn" class="control-button theme">🌙 Light</button>
+                <button id="resetBtn" class="control-button">🔄 Reset</button>
+            </div>
+            
+            <div class="control-group">
+                <label>☿ Mercury Speed</label>
+                <input type="range" class="speed-slider" id="mercury-speed" min="0" max="5" step="0.1" value="1">
+                <div class="speed-value" id="mercury-value">1.0x</div>
+            </div>
+            
+            <div class="control-group">
+                <label>♀ Venus Speed</label>
+                <input type="range" class="speed-slider" id="venus-speed" min="0" max="5" step="0.1" value="1">
+                <div class="speed-value" id="venus-value">1.0x</div>
+            </div>
+            
+            <div class="control-group">
+                <label>🌍 Earth Speed</label>
+                <input type="range" class="speed-slider" id="earth-speed" min="0" max="5" step="0.1" value="1">
+                <div class="speed-value" id="earth-value">1.0x</div>
+            </div>
+            
+            <div class="control-group">
+                <label>♂ Mars Speed</label>
+                <input type="range" class="speed-slider" id="mars-speed" min="0" max="5" step="0.1" value="1">
+                <div class="speed-value" id="mars-value">1.0x</div>
+            </div>
+            
+            <div class="control-group">
+                <label>♃ Jupiter Speed</label>
+                <input type="range" class="speed-slider" id="jupiter-speed" min="0" max="5" step="0.1" value="1">
+                <div class="speed-value" id="jupiter-value">1.0x</div>
+            </div>
+            
+            <div class="control-group">
+                <label>♄ Saturn Speed</label>
+                <input type="range" class="speed-slider" id="saturn-speed" min="0" max="5" step="0.1" value="1">
+                <div class="speed-value" id="saturn-value">1.0x</div>
+            </div>
+            
+            <div class="control-group">
+                <label>♅ Uranus Speed</label>
+                <input type="range" class="speed-slider" id="uranus-speed" min="0" max="5" step="0.1" value="1">
+                <div class="speed-value" id="uranus-value">1.0x</div>
+            </div>
+            
+            <div class="control-group">
+                <label>♆ Neptune Speed</label>
+                <input type="range" class="speed-slider" id="neptune-speed" min="0" max="5" step="0.1" value="1">
+                <div class="speed-value" id="neptune-value">1.0x</div>
+            </div>
+        </div>
+        
+        <div id="info">
+            <strong class="glow">🌌 3D Solar System Explorer</strong><br><br>
+            <span style="color: #00d4ff;">🎮 Controls:</span><br>
+            • 🖱️ Drag to rotate view<br>
+            • 🔍 Scroll to zoom<br>
+            • 🎚️ Adjust planet speeds<br>
+            • 🖱️ Hover planets for details<br><br>
+            <span style="color: #ffd700;">✨ Features:</span><br>
+            • Real-time physics simulation<br>
+            • Dynamic lighting & shadows<br>
+            • Interactive space exploration
+        </div>
+        
+        <div id="tooltip" class="planet-info"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
